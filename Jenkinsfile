@@ -8,8 +8,7 @@ pipeline {
     }
     stage('version') {
       steps {
-        sh 'pip install python-jenkins
-'
+        sh 'pip install python-jenkins'
       }
     }
     stage('build') {
